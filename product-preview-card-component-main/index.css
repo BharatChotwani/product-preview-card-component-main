@@ -94,11 +94,12 @@ img{
 }
 
 h2{
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     margin: 1rem;
     font-weight: 500;
     color:hsl(228, 12%, 48%);
+    letter-spacing: 0.2rem;
 }
 
 p{
@@ -114,7 +115,7 @@ h1{
 
 h1, .price{
     font-family: 'Fraunces', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .price{
@@ -126,7 +127,7 @@ h1, .price{
     color: #ffff;
     padding: 1rem 2rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     outline: none;
     width: 100%;
     cursor: pointer;
@@ -137,6 +138,7 @@ h1, .price{
     align-items: center;
     font-weight: 700;
     transition: 0.3s;
+    margin-right: 1rem;
 }
 
 #container .btn img:last-child{
@@ -157,7 +159,23 @@ h1, .price{
         border-radius: 1rem 0 0 1rem;
     }
 
-    #container section:last-child{
-        border-radius: 1rem 0 0 1rem;
+    #container picture img{
+        height: 100%;
     }
+
+    #container section:last-child{
+        border-radius: 0 1rem 1rem 0;
+        margin-top: 0;
+    }
+
+    #container h2 {
+        margin-bottom: 1rem;
+    }
+
+    #container h1 , p , ul, .b  {
+        margin-bottom: 1rem;
+    }
+
+
+
 }
